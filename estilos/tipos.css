@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.padre {
+    padding: 20px;
+}
+
+.container {
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffcc00, #000000);
+    border-radius: 8px;
+}
+
+.card {
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+/* Clases de fondo */
+.bg-danger {
+    background-color: #ff6347 !important; /* Fuego */
+}
+
+.bg-warning {
+    background-color: #fdd835 !important; /* Eléctrico */
+}
+
+.bg-success {
+    background-color: #66bb6a !important; /* Planta */
+}
+
+.bg-primary {
+    background-color: #42a5f5 !important; /* Agua */
+}
+
+/* Estilos para el carrusel */
+.cont1 {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el acordeón */
+.cont2 {
+    margin-top: 20px;
+}
+
+/* Ajustes para la barra de navegación */
+.nav {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    border-radius: 8px;
+}
+
+/* Estilos para las tarjetas en el acordeón */
+.accordion-item {
+    margin: 10px 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.accordion-button {
+    background-color: #e0e0e0; /* Color de fondo del botón del acordeón */
+    color: #000; /* Color del texto del botón */
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff; /* Color del texto cuando está colapsado */
+}
+
+.accordion-body {
+    background-color: #ffffff; /* Color de fondo del contenido del acordeón */
+    color: #000; /* Color del texto del contenido */
+}
+
+/* Estilos para texto dentro del acordeón */
+.accordion-body strong {
+    color: #000; /* Color de texto fuerte */
+}
